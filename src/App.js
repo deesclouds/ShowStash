@@ -7,13 +7,15 @@ import SearchBox from './components/SearchBox';
 import AddFavorites from './components/AddFavorites';
 import RemoveFavorites from './components/RemoveFavorites';
 
+
 const App = () => {
 	const [movies, setMovies] = useState([]);
 	const [favorites, setFavorites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
 
 	const getMovieRequest = async (searchValue) => {
-		const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=c2f88d27`;
+    const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
+		const url = `http://www.omdbapi.com/?s=${searchValue}&apikey=${REACT_APP_API_KEY}`;
 
 		const response = await fetch(url);
 		const responseJson = await response.json();
