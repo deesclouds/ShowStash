@@ -2,7 +2,7 @@
 
 This project is building a movie app to display movies.
 
-<p align="center"><img src="movie-app/public/react-movie-app.gif" alt="gif of react-movie-app"></p>
+<p align="center"><img src="https://github.com/deesclouds/TV-Shows-and-Movie-Tracker/blob/main/public/react-movie-app.gif?raw=true" alt="gif of react-movie-app"></p>
 
 ## Tools for this project:
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
