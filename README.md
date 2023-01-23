@@ -2,6 +2,8 @@
 
 This project is building a movie app to display movies.
 
+<p align="center"><img src="react-movie-app.gif" alt="gif of react-movie-app"></p>
+
 ## Tools for this project:
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 [OMDB API] (http://www.omdbapi.com/) - collects the posters for the movies we're searching for. 
@@ -33,9 +35,9 @@ There's no need to use eject.
 ## Getting Started:
 In Terminal:
 
-cd TV-Shows-and-Movie-Tracker
-npm install bootstrap
-npm start
+`cd TV-Shows-and-Movie-Tracker`
+`npm install bootstrap`
+`npm start`
 
 Visit the app within the browser locally on port 3000.
 
